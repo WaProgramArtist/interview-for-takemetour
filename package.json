@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register ./src/server.ts",
     "start:watch": "nodemon",
+    "start:fib": "tsc && node ./dist/basic-js-ts/fibonacci.js",
+    "start:shift": "tsc && node ./dist/basic-js-ts/array-shift.js",
+    "start:second-max": "tsc && node ./dist/basic-js-ts/second-max.js",
+    "start:fizz-buzz": "tsc && node ./dist/basic-js-ts/fizz-buzz.js",
     "test": "",
     "build": "tsc",
     "prod": "tsc && node ./dist/server.js"
